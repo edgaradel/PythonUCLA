@@ -1,0 +1,22 @@
+a
+if row == col:
+diagonal.append(L[row][row])
+else:
+non_diagonal.append(L[row][col])
+
+b
+if row == col:
+diagonal.append(L[row][col])
+if row != col:
+non_diagonal.append(L[row][col])
+
+c
+if row == col:
+diagonal.append(L[row][col])
+elif row != col:
+non_diagonal.append(L[row][col])
+
+d
+if row == col: 
+diagonal.append(L[row][col])
+non_diagonal.append(L[row][col])
