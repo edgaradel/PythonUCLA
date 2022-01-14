@@ -1,0 +1,101 @@
+s[-5:]=’Perhaps’
+
+TypeError: 'str' object is not callable
+>>> s[0]
+'L'
+>>> s[1]
+'e'
+>>> s[2]
+'a'
+>>> s[-1]
+'m'
+>>> s[-2]
+'a'
+>>> s[-3]
+'r'
+>>> s[0:5]
+'Learn'
+>>> s[9:16]
+'Program'
+>>> s[9:len(s)]
+'Program'
+>>> s[9:]
+'Program'
+>>> s[:8]
+'Learn to'
+>>> s[1:8]
+'earn to'
+>>> s[1:-8]
+'earn to'
+>>> s[-15:-8]
+'earn to'
+>>> s = 'Call Me Maybe'
+>>> s[12]
+'e'
+>>> s[13]
+Traceback (most recent call last):
+  File "<pyshell#18>", line 1, in <module>
+    s[13]
+IndexError: string index out of range
+>>> s[-0]
+'C'
+>>> s[-1]
+'e'
+>>> s[1:]
+'all Me Maybe'
+>>> s[:2]
+'Ca'
+>>> s[:4]
+'Call'
+>>> s[:5] +'ed' + s[5:]
+'Call edMe Maybe'
+>>> s = 'Learn to Program'
+>>> s[:5] +'ed' + s[5:]
+'Learned to Program'
+>>> 'Learned to Program'
+'Learned to Program'
+>>> s = s[:5] +'ed' + s[5:]
+>>> s =
+SyntaxError: invalid syntax
+>>> s
+'Learned to Program'
+>>>  s = 'Call Me Maybe'
+ 
+SyntaxError: unexpected indent
+>>> s = 'Call Me Maybe'
+>>> s[-5:]=’Perhaps’
+SyntaxError: invalid character in identifier
+>>> s[-5:]='Perhaps'
+Traceback (most recent call last):
+  File "<pyshell#34>", line 1, in <module>
+    s[-5:]='Perhaps'
+TypeError: 'str' object does not support item assignment
+>>> s = s[:-5] + ’Perhaps’
+SyntaxError: invalid character in identifier
+>>> s = s[:-5] + 'Perhaps'
+>>> s
+'Call Me Perhaps'
+>>> s[-5:]= 'Perhaps'
+Traceback (most recent call last):
+  File "<pyshell#38>", line 1, in <module>
+    s[-5:]= 'Perhaps'
+TypeError: 'str' object does not support item assignment
+>>> s = s[0:-5] +'Perhaps'
+>>> s
+'Call Me PePerhaps'
+>>> s = 'Call Me Maybe'
+>>> s = s[0:-5] +'Perhaps'
+>>> s
+'Call Me Perhaps'
+>>> s = s-s[-5:]+'Perhaps'
+Traceback (most recent call last):
+  File "<pyshell#44>", line 1, in <module>
+    s = s-s[-5:]+'Perhaps'
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+>>> s = 'Call Me Maybe'
+>>> s = s - s[-5:] + 'Perhaps'
+Traceback (most recent call last):
+  File "<pyshell#46>", line 1, in <module>
+    s = s - s[-5:] + 'Perhaps'
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+>>> 

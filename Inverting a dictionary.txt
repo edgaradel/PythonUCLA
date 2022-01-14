@@ -1,0 +1,9 @@
+fruit_to_colour = {
+	'banana' : 'yellow',
+	'cherry' : 'red',
+	'orange' : 'orange',
+	'pear' : 'green',
+	'peach' : 'orange',
+	'plum' : 'purple',
+	'pomegranate' : 'red',
+	'strawberry' : 'red'}

@@ -1,0 +1,19 @@
+solution = 'cat'
+
+solution = = 'cat'
+
+solution = 'dog'
+
+solution != 'cat'
+
+'abracadabra' < 'ace'
+
+'A' <= 'B'
+
+'a' < 'A'
+
+'cad' in 'abracadabra'
+
+
+
+

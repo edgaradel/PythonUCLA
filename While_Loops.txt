@@ -1,0 +1,104 @@
+>>> num = 2
+>>> while num < 100:
+	num = num * 2
+	print(num)
+
+4
+8
+16
+32
+64
+128
+>>> num = 10
+>>> while num < 100:
+	num = num * 2
+	print(num)
+
+	
+20
+40
+80
+160
+>>> num = 6
+while num > 0:
+    num = num - 2
+    print(num)
+    
+SyntaxError: multiple statements found while compiling a single statement
+>>> num = 6
+>>> while num > 0:
+    num = num - 2
+    print(num)
+
+    
+4
+2
+0
+>>> s = 'hello'
+>>> for char in s:
+	print(char)
+
+	
+h
+e
+l
+l
+o
+>>> 
+>>> i = 0
+>>> while not (s[i] in 'aeiouAEIOU'):
+	print(s[i])
+	i = i + 1
+
+	
+h
+>>> s = 'there'
+>>> i = 0
+>>> while not (s[i] in 'aeiouAEIOU'):
+	print(s[i])
+	i = i + 1
+
+	
+t
+h
+>>> s = 'xyz'
+>>> i = 0
+>>> while not (s[i] in 'aeiouAEIOU'):
+	print(s[i])
+	i = i + 1
+	
+x
+y
+z
+Traceback (most recent call last):
+  File "<pyshell#155>", line 1, in <module>
+    while not (s[i] in 'aeiouAEIOU'):
+IndexError: string index out of range
+
+>>> 
+>>> s[0]
+'x'
+>>> s[1]
+'y'
+>>> s[2]
+'z'
+>>> i = 0
+>>> s = 'xyz'
+>>> while i < len(s) and not (s[i] in 'aeiouAEIOU'):
+	print(s[i])
+	i = i + 1
+
+	
+x
+y
+z
+>>> 
+
+==== RESTART: C:/Users/edgar/Desktop/Universities/Toronto/while_loops.py ====
+>>> up_to_vowel('hello')
+'h'
+>>> up_to_vowel('there')
+'th'
+>>> up_to_vowel('cs')
+'cs'
+>>> 

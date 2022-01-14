@@ -1,0 +1,89 @@
+5.- Consider this function:
+
+def larger_of_smallest(L1, L2):
+    '''(list of int, list of int) -> int
+
+    Return the larger of the smallest value in L1 and the small    est value inL2.
+
+    Precondition: L1 and L2 are not empty.
+
+    >>> larger_of_smallest([1, 4, 0], [3, 2])
+    2
+    >>> larger_of_smallest([4], [9, 6, 3])
+    4
+    '''
+
+   return # CODE MISSING HERE
+
+
+The expression for the \color{black}{\verb|return|}return statement is missing. Write it below. Use only the parameters, one call on function \color{black}{\verb|max|}max, and two calls on function \color{black}{\verb|min|}min.
+
+Do not use unnecessary parentheses: you need them for the function calls, but nothing else. Do not include the word \color{black}{\verb|return|}return; just write the expression.
+
+7.- Consider these two functions; we provide only the headers, type contracts, and a precondition:
+
+def moogah(a, b):
+    '''(str, int) -> str'''
+
+def frooble(L):
+    '''(list of str) -> int
+    Precondition: L has at least one element.'''
+
+10.Question 10
+Consider this code:
+def count_values_that_are_keys(d):
+    '''(dict) -> int
+
+    Return the number of values in d that are also keys in d.
+   
+    >>> count_values_that_are_keys({1: 2, 2: 3, 3: 3})
+    3
+    >>> count_values_that_are_keys({1: 1})
+    1
+    >>> count_values_that_are_keys({1: 2, 2: 3, 3: 0})
+    2
+    >>> count_values_that_are_keys({1: 2})
+    0
+    '''
+
+    result = 0
+    for k in d:
+        if # CODE MISSING HERE
+             result = result + 1
+
+    return result
+
+
+12.Question 12
+The diagonal of a square nested list goes from the top-left to the bottom-right corner. For example, consider this square nested list:
+
+\color{black}{\verb|[[1, 3, 5], [2, 4, 5], [4, 0, 8]]|}[[1,3,5],[2,4,5],[4,0,8]]
+
+That nested list represents this table, where the values on the diagonal are in bold:
+
+1 3 5
+
+2 4 5
+
+4 0 8
+
+Consider this function:
+def get_diagonal_and_non_diagonal(L):
+    '''(list of list of int) -> tuple of (list of int, list of int)
+
+    Return a tuple where the first item is a list of the values on the
+    diagonal of square nested list L and the second item is a list of the rest
+    of the values in L.
+
+    >>> get_diagonal_and_non_diagonal([[1,  3,  5], [2,  4,  5], [4,  0,  8]])
+    ([1, 4, 8], [3, 5, 2, 5, 4, 0])
+    '''
+
+    diagonal = []
+    non_diagonal = []
+    for row in range(len(L)):
+        for col in range(len(L)):
+
+            # CODE MISSING HERE
+
+    return (diagonal, non_diagonal)

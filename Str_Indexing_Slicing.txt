@@ -1,0 +1,31 @@
+s = 'Learn to Program'
+>>> s[0]
+'L'
+>>> s[1]
+'e'
+>>> s[2]
+'a'
+>>> s[-1]
+'m'
+>>> s[-2]
+'a'
+>>> s[-3]
+'r'
+>>> s[0:5]
+'Learn'
+>>> s[9:16]
+'Program'
+>>> s[9:len(s)]
+'Program'
+>>> s[9:]
+'Program'
+>>> s[:8]
+'Learn to'
+>>> s[1:8]
+'earn to'
+>>> s[1:-8]
+'earn to'
+>>> s[-15:-8]
+'earn to'
+>>> s[:5] +'ed' + s[5:]
+'Learned to Program'

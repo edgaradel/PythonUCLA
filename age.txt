@@ -1,0 +1,38 @@
+if eggs % 12 == 0:
+    return False
+else:
+    return True
+
+
+age1 = input("How old are you? ")
+age2 = input("How old is your best friend? ")
+
+math.ceil(84.2)
+
+module_name.function_name
+
+def traffic_report(light):
+    if light == 'red':
+        return 'stop'
+    elif light == 'yellow':
+        return 'slow'
+    elif light == 'green':
+        return 'go'
+
+weather_report(-5)
+
+
+total = 0
+grade_count = 0
+
+if grade1 >= 50:
+    total = total + grade1
+    grade_count = grade_count + 1
+if grade2 >= 50:
+    total = total + grade2
+    grade_count = grade_count + 1
+
+if grade_count > 0:
+    print(total / grade_count)
+else:
+    print(0.0)

@@ -1,0 +1,3 @@
+hours = seconds//3600
+    result = to_24_hour_clock(hours)
+    return result

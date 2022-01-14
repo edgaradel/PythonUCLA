@@ -1,0 +1,35 @@
+3 < 4
+
+3 > 8
+
+3.5 >=3
+
+7 == 7
+
+x = 7
+
+x == y
+
+
+grade = 80
+grade >=50
+
+not (grade >= 50)
+
+(grade >= 50) and (grade2 >= 50)
+True
+
+grade = 40
+(grade >= 50) and (grade2 >= 50)
+False
+
+(math_grade>=50)and(history_grade>=50)
+history_grade==math_grade
+(math_grade>50)and(history_grade>50)
+(math_grade>50)or(history_grade>50)
+
+history_grade==math_grade
+
+math_grade>=50)and(history_grade>=50)
+
+(math_grade>50)and(history_grade>50)

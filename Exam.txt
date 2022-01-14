@@ -1,0 +1,14 @@
+'
+>>>
+
+>>> def announce_location(country):
+    # Missing function body
+
+>>> instructor_location = announce_location('Canada')
+Canada
+>>> print(instructor_location)
+Canada
+
+    
+Canada
+

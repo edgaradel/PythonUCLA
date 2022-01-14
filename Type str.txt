@@ -1,0 +1,31 @@
+'hello'
+'how are you?'
+'short- and long-term'
+
+sunny_greeting = 'What a beautiful day!'
+
+storm_greeting = "Wow, you 're dripping wet!"
+
+storm_greeting = "Wow, you\ 're dripping wet!"
+
+'personal' + 'penguin'
+
+'I want to be your personal' + 'penguin' + '!'
+
+puzzle_start = 'I want to be your personal '
+
+punctuation = '!'
+
+noun = 'earthworm'
+
+puzzle_start + noun + punctuation
+
+'ha' * 5
+
+'Bwa' + 'ha' * 5
+
+('Bwa' + 'ha') * 5
+
+'My shoe size' + 5
+
+'a' - 'b'
